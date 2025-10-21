@@ -1,5 +1,9 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
+
+let a=()=>{
+  alert('hello world')
+}
 </script>
 
 <template>
