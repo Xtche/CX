@@ -4,6 +4,12 @@ import HelloWorld from './components/HelloWorld.vue'
 let a=()=>{
   alert('hello world')
 }
+
+const v= 'hello world'
+
+let ad=()=>{
+  alert(v)
+}
 </script>
 
 <template>
