@@ -33,6 +33,23 @@ const count = ref(0)
   </p>
   <p class="read-the-docs">Click on the Vite and Vue logos to learn more</p>
 </template>
+<script>
+export default {
+  name: 'HelloWorld',
+  data() {
+    return {
+      message: 'Hello, Vue!'
+    }
+  },
+  methods: {
+    sayHello() {
+      const name = this.message;
+      alert('Hello, ' + name + '!');
+    },
+    
+  }
+}
+</script>
 
 <style scoped>
 .read-the-docs {
