@@ -38,7 +38,7 @@ export default {
   name: 'HelloWorld',
   data() {
     return {
-      message: 'Hello, Vue!'
+      message: 'Hello, Vue! zn kaishi'
     }
   },
   methods: {
