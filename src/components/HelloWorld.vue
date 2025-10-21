@@ -43,8 +43,8 @@ export default {
   },
   methods: {
     sayHello() {
-      const name = this.message;
-      alert('Hello, ' + name + '!');
+      
+      alert('Hello, world!');
     },
     
   }
